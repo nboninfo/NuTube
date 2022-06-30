@@ -14,7 +14,7 @@ sg.theme('Darkred1')
 #inicio 2ª tela
 start_layout = [[sg.Input(key = '-INPUT-'),sg.Button('Submit')]]
 
-#variaveis
+#variáveis
 info_tab = [
     [sg.Text('Title'),sg.Text('',key = '-TITLE-')],
     [sg.Text('Length'),sg.Text('',key = '-LENGTH-')],
@@ -22,7 +22,7 @@ info_tab = [
     [sg.Text('Author'),sg.Text('',key = '-AUTHOR-')],
     [
         sg.Text('Description'),
-        sg.Multiline('', key = '-DESCRIPTON-',
+        sg.Multiline('', key = '-DESCRIPTION-',
         size = (40,20),
         no_scrollbar = True,
         disabled = True)
